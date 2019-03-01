@@ -2,7 +2,7 @@ let streetLite = function() {
     let count = 0;
     let activeOn = new red(this);
 
-    this.change = function (on) {
+    this.change = function(on) {
         //controls number of changes allowed
         if (count++ >= 10) return;
         activeOn = on;
